@@ -1,4 +1,6 @@
-var Tabs = can.Control.extend({
+$(function(){
+
+  var Tabs = can.Control.extend({
     // initialize widget
     init: function( el ) {
       
@@ -28,3 +30,5 @@ var Tabs = can.Control.extend({
   
   // adds the controller to the element
   new Tabs( '#tabs' );
+  
+})
